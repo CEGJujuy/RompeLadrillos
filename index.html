@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game-header">
+            <div class="score-panel">
+                <div class="stat">
+                    <span class="label">Puntuación</span>
+                    <span class="value" id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Vidas</span>
+                    <span class="value" id="lives">3</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="game-wrapper">
+            <canvas id="gameCanvas"></canvas>
+
+            <div class="game-overlay" id="gameOver">
+                <div class="overlay-content">
+                    <h2 id="overlayTitle">Game Over</h2>
+                    <p id="overlayMessage">Puntuación Final: <span id="finalScore">0</span></p>
+                    <button id="restartBtn" class="btn-restart">Jugar de Nuevo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <p class="control-hint">Usa las flechas ← → o toca la pantalla para mover la paleta</p>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
