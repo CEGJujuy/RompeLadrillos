@@ -107,10 +107,10 @@ Utiliza un sistema de escalado que mantiene las proporciones del juego en cualqu
 
 ## Información del Desarrollador
 
-**Profesional**: César Eduardo González
-**Cargo**: Analista en Sistemas
-**Email**: gonzalezeduardo_31@hotmail.com
-**Teléfono**: (+54) 3884 858-907
+- Profesional: César Eduardo González
+- Cargo: Analista en Sistemas
+- Email: gonzalezeduardo_31@hotmail.com
+- Teléfono: (+54) 3884 858-907
 
 ---
 
